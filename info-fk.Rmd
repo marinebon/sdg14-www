@@ -1,0 +1,26 @@
+---
+title: "Florida Keys Infographic Art"
+---
+
+```{r, echo=F}
+library("htmltools")
+library("bsplus")
+
+dir = 'infographics/fk'
+
+carousel = bs_carousel(id='infographics', use_indicators=T)
+for (f in list.files(dir)){
+  f_path = file.path(dir, f)
+  f_name = tools::file_path_sans_ext(f)
+    
+  carousel = carousel %>%
+  bs_append(
+    content = bs_carousel_image(src=f_path),
+    caption = bs_carousel_caption(f_name))
+}
+carousel
+```
+
+Data:
+- [Biodiversity and Biogeography Team - Google Sheets](https://docs.google.com/spreadsheets/d/1yaSi8fJShj2X-UIKuMTfKsukrTYWdnwmDpfEpt9dHAU/edit#gid=1871720887) - FKNMS, FKNMS_Prioritized tabs
+- [RVC/SDG14 at master · mhepner90/RVC](https://github.com/mhepner90/RVC/tree/master/SDG14)
