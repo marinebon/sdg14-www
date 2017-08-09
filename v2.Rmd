@@ -1,0 +1,26 @@
+---
+title: "Florida Keys Infographic Art"
+---
+
+```{r, echo=F}
+library("htmltools")
+library("bsplus")
+
+dir = 'infographics/fk'
+
+carousel = bs_carousel(id='infographics', use_indicators=T) %>%
+  bs_append(
+    content = bs_carousel_image(src='images/obis_map_hist_all-depths.png'),
+    caption = bs_carousel_caption('The Ocean Biogeographic Information System (OBIS) is the global repository for marine biological observations.')) %>%
+    bs_append(
+    content = bs_carousel_image(src='images/at-sea.gif'),
+    caption = bs_carousel_caption('We need to feed OBIS with data to sufficiently report on the state of life in the sea.')) %>%
+bs_append(
+    content = bs_carousel_image(src='images/go-team.gif'),
+    caption = bs_carousel_caption('Together, we will save the planet!'))
+
+carousel
+```
+<p><center>
+  <a href="./v2-app.html" class="btn btn-primary" role="button">Dive In!</a>
+</center></p>

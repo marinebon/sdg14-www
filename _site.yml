@@ -58,6 +58,8 @@ navbar:
           href: conn-gr.html
         - text: "Monterey Bay & Florida Keys Larval Connectivity"
           href: conn-nms.html
+    - text: "v2"
+      href: v2.html          
 output_dir: "."
 output:
   html_document:
