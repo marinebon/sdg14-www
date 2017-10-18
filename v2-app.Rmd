@@ -1,7 +1,7 @@
 ---
-title: "Global Infographic Explorer"
+title: "State of Life in the Sea (v2)"
 params:
-  url_app: 'http://mbon.marine.usf.edu:3838/v2/'
+  url_app: 'http://mbon.marine.usf.edu:3838/v2'
 ---
 
 Direct: [`r params$url_app`](`r params$url_app`)
