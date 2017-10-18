@@ -7,7 +7,7 @@ Welcome to the prototype tools site by the Marine Biodiversity Observation Netwo
 <center>
 ## Explorer
 
-[![](images/explorer_screen.png)](http://mbon.marine.usf.edu:3838/env3/)
+[![](images/explorer_screen.png)](http://mbon.marine.usf.edu:3838/explorer/)
 
 ## Infographics
 
