@@ -7,3 +7,9 @@ params:
 Direct: [`r params$url_app`](`r params$url_app`)
 
 <iframe frameborder='0' width='100%' height='850' src='`r params$url_app`'></iframe>
+
+* [Florida Keys eDNA Explorer](http://mbon.marine.usf.edu/edna-fk.html)
+* [add function to combine biom files · Issue #1 · marinebon/ednatools](https://github.com/marinebon/ednatools/issues/1)
+* [Settings](chrome://settings/)
+* [Extensions](chrome://extensions/)
+* [Copy as Markdown - Chrome Web Store](https://chrome.google.com/webstore/detail/copy-as-markdown/fkeaekngjflipcockcnpobkpbbfbhmdn)
