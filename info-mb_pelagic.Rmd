@@ -1,7 +1,7 @@
 ---
-title: "Global Explorer"
+title: "Infographic - Monterey Bay, Pelagic"
 params:
-  url_app: 'http://mbon.marine.usf.edu:3838/explorer'
+  url_app: 'https://marinebon.github.io/info-mb/pelagic.html'
 ---
 
 Direct: [`r params$url_app`](`r params$url_app`)

@@ -1,7 +1,7 @@
 ---
-title: "Global Explorer"
+title: "Infographic - Florida Keys, Coral Reef"
 params:
-  url_app: 'http://mbon.marine.usf.edu:3838/explorer'
+  url_app: 'https://marinebon.github.io/info-fk/corals.html'
 ---
 
 Direct: [`r params$url_app`](`r params$url_app`)

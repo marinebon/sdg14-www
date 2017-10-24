@@ -1,5 +1,5 @@
 ---
-title: "Global Explorer"
+title: "Explorer"
 params:
   url_app: 'http://mbon.marine.usf.edu:3838/explorer'
 ---
