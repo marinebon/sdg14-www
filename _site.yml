@@ -11,7 +11,7 @@ navbar:
       icon: fa-info-circle
       menu:
         - text: "Florida Keys - Coral Reef"
-          href: info-fl_coral-reef.html
+          href: info-fk_coral-reef.html
         - text: "Monterey Bay - Pelagic"
           href: info-mb_pelagic.html
 output_dir: "."

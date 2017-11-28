@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TileMap version="1.0.0" tilemapservice="http://tms.osgeo.org/1.0.0">
+      <Title>A20032007_chlor_a_CLIM_MO_GLOB_27km.tif</Title>
+      <Abstract></Abstract>
+      <SRS>EPSG:3857</SRS>
+      <BoundingBox minx="-180.00000000000000" miny="-80.97598089647848" maxx="179.84033331814376" maxy="81.00000000000000"/>
+      <Origin x="-180.00000000000000" y="-80.97598089647848"/>
+      <TileFormat width="256" height="256" mime-type="image/png" extension="png"/>
+      <TileSets profile="mercator">
+        <TileSet href="4" units-per-pixel="9783.93961875000059" order="4"/>
+      </TileSets>
+    </TileMap>
+    
